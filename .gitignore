@@ -5,6 +5,8 @@ llm_venv
 .env
 env
 
+.DS_Store
+
 sav
 out
 in
