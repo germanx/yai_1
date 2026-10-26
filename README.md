@@ -2,7 +2,7 @@
 
 ## Финальный конфиг
 
-- hardware: MacBook M4, 16 Gb RAM (basic)
+- hardware: MacBook M4, 16 Gb RAM (basic), CPU only
 - модель: llama3.1:8b
 - dtype: bfloat16
 - параметры vLLM: worked on CPU, don't have GPU
@@ -18,7 +18,7 @@
 
 - сколько повторов при браке формата и почему
 0 / 0
-It seems the model works well acording to the basic prompt.
+It seems the model works well according to the basic prompt.
 
 
 ## Параметры генерации
@@ -57,13 +57,12 @@ It seems the model works well acording to the basic prompt.
 
 
 ## Оптимизации
-
 - выбор точности: float16 или INT4, с обоснованием (замер по желанию)
 
   "parameter_size": "8.0B",
   "quantization_level": "Q4_K_M"
 
-Quantization was selected based on hardware used: MacBook M4, 16 Gb RAM (basic)
+Quantization Q4 was selected based on hardware used: MacBook M4, 16 Gb RAM (basic), CPU only.
 More extended level is poorly supported by the HW.
 
 ## Стоимость и решение
