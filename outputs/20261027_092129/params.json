@@ -1,0 +1,10 @@
+{
+    "concurrency": 1,
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "top_k": 50,
+    "repetition_penalty": 1.1,
+    "max_tokens": 350,
+    "total_time": 44.58797069999855,
+    "time_per_item": 44.59
+}
